@@ -1,0 +1,173 @@
+:root {
+    --color-primary: #252525;
+    --color-secondary: #232220;
+    --color-link: #84a9a1;
+    --color-sucess: #056856;
+    --color-herobg: #FCE8D0;
+    /* --color-link: #0e5247; */
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: inter, sans-serif;
+    font-weight: 600;
+    color: var(--color-secondary);
+}
+
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    padding: 10px 30px;
+}
+
+.navbar .nav-link {
+    color: var(--text-primary);
+}
+
+.login-btn {
+    border: 2px solid var(--color-sucess);
+    background-color: transparent;
+    border-radius: 6px;
+    font-weight: bold;
+    color: var(--color-sucess);
+}
+
+.hero-content {
+    background-color: var(--color-herobg);
+    padding: 100px 25px 20px 25px;
+    height: 100vh;
+}
+
+.hero-text {
+    position: absolute;
+    width: 60%;
+    top: 25%;
+    font-size: 16px;
+    left: 4%;
+}
+
+.hero-text h1,
+h1.text-center,
+.fs-title {
+    color: #222;
+    font-size: 400%;
+}
+
+.btn-green {
+    border: 2px solid #056856;
+    border-radius: 6px;
+    background-color: #056856;
+    color: white;
+    padding: 7px;
+}
+
+.dog-window {
+    position: absolute;
+    right: -25px;
+    top: 18%;
+    height: 80%;
+}
+
+.demo-btn {
+    border-radius: 6px;
+    background-color: transparent;
+    border: 1px solid #d6b99a;
+    padding: 0 7px 0 0;
+}
+
+.demo-btn img {
+    width: 40px;
+    margin: 6px;
+    /* height: 50px; */
+    border-radius: 4px;
+}
+
+.text-underline {
+    left: 0;
+    position: absolute;
+    bottom: -10px
+}
+
+.para-info {
+    width: 40%;
+    text-align: center;
+}
+
+.feature-link {
+    color: var(--color-link);
+}
+
+.sticky-bg {
+    background-color: #fae3e9;
+    color: #072772;
+    padding: 45px 30px;
+}
+
+.partner-collection {
+    text-align: center;
+}
+
+.partner-collection img {
+    width: 70px;
+    margin: 30px;
+}
+
+.buddy-avatar {
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+    border-radius: 50%;
+}
+
+.circle-highlight {
+    border: 3px solid;
+    border-radius: 50%;
+    padding: 4px 10px;
+}
+
+.centered-h1-p {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.centered-h1-p h1,
+.centered-h1-p p {
+    width: 30%;
+}
+
+.benif-icon {
+    width: 100px;
+}
+
+.rounded {
+    border-radius: 8px !important;
+}
+
+.featur-btn {
+    background-color: transparent;
+    columns: var(--color-secondary);
+    padding: 7px 12px;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+
+.benifit-container {
+    position: relative;
+    height: 90%;
+    /* height: 80vh%; for media querry */
+}
+
+.orange-bg {
+    background-color: #ffb15a;
+    border-radius: 10% 4% / 10% 7%
+}
