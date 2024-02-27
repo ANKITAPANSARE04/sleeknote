@@ -436,12 +436,14 @@ ul.wall-container li a {
     .hero-content {
         text-align: center;
         height: auto;
+        margin: 0 0 35px 0;
     }
 
     .dog-window,
     .hero-text {
         position: static;
         width: 100%;
+        height: auto;
     }
 
     .feture-collection {
@@ -450,6 +452,12 @@ ul.wall-container li a {
 
     .centered-h1-p {
         display: block;
+    }
+
+    .hero-text h1,
+    h1.text-center,
+    .fs-title {
+        font-size: 35px;
     }
 
     .centered-h1-p h1,
@@ -462,10 +470,19 @@ ul.wall-container li a {
 
     .marketing-contaner {
         display: block;
+        margin: 30px 0 80px 0;
+    }
+
+    ul.wall-container span li.link {
+        width: inherit;
     }
 
     .marketing-contaner .img-left {
-        width: 80px;
+        width: 50px;
+    }
+
+    .para-info {
+        width: 90%;
     }
 
     .marketing-contaner .img-right {
@@ -524,4 +541,7 @@ ul.wall-container li a {
         width: 100%;
     }
 
+    .site-foot-contact-left.d-flex {
+        display: block !important;
+    }
 }
